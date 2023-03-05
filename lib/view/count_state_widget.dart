@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_learn/notifier/count_model.dart';
 
 class CountStateWidget extends InheritedWidget {
   const CountStateWidget({
     super.key,
-    required this.count,
+    required this.value,
     required super.child,
   });
 
-  final int count;
+  final CountModel value;
 
   static CountStateWidget of(BuildContext context) {
     return context.dependOnInheritedWidgetOfExactType<CountStateWidget>()!;
@@ -15,6 +16,6 @@ class CountStateWidget extends InheritedWidget {
 
   @override
   bool updateShouldNotify(CountStateWidget oldWidget) {
-    return oldWidget.count != count;
+    return oldWidget.value != value;
   }
 }
