@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'view/listener_widget.dart';
+import 'view/gesture_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -24,6 +24,11 @@ class RootWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const ListenerWidget();
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text("Test Gesture"),
+      ),
+      body: const GestureWidget(),
+    );
   }
 }
