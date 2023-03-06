@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'view/gesture_widget.dart';
+import 'view/drag_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -26,9 +26,9 @@ class RootWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Test Gesture"),
+        title: const Text("Test Drag"),
       ),
-      body: const GestureWidget(),
+      body: const DragWidget(),
     );
   }
 }
