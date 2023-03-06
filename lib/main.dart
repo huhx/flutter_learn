@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'view/drag_vertical_widget.dart';
+import 'view/scale_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -26,9 +26,9 @@ class RootWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Test Drag"),
+        title: const Text("Test Scale"),
       ),
-      body: const DragVerticalWidget(),
+      body: const ScaleWidget(),
     );
   }
 }
