@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'view/drag_widget.dart';
+import 'view/drag_vertical_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -28,7 +28,7 @@ class RootWidget extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Test Drag"),
       ),
-      body: const DragWidget(),
+      body: const DragVerticalWidget(),
     );
   }
 }
