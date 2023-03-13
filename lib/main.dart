@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'day_1/shortcut.dart';
+import 'day_1/animation_1.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,10 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Scaffold(
-        appBar: AppBar(title: const Text("Flutter")),
-        body: const ShortCutWidget(),
-      ),
+      home: const AnimationTest1(),
     );
   }
 }
