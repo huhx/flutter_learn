@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'day_1/animation_1.dart';
+import 'day_1/animation_2.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const AnimationTest1(),
+      home: const AnimationTest2(),
     );
   }
 }
