@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'animation/animation_6.dart';
+import 'transition/transition1.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const AnimationTest6(),
+      home: const TransitionTest1(),
     );
   }
 }
