@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'day_1/animation_6.dart';
+import 'animation/animation_6.dart';
 
 void main() {
   runApp(const MyApp());
