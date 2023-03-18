@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'transition/transition3.dart';
+import 'basic/slider_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const TransitionTest3(),
+      home: const SliderWidget(),
     );
   }
 }
