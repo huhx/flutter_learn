@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'basic/range_slider_widget.dart';
+import 'sliver/sliver_list_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const RangeSliderWidget(),
+      home: const SliverListWidget(),
     );
   }
 }
